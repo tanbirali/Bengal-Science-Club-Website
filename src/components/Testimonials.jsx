@@ -45,9 +45,9 @@ const Testimonials = () => {
         bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-800
         rounded-md "
       >
-        <div className="flex space-x-3">
+        <div className="flex gap-3 flex-col lg:flex-row">
           {data.map((student, index) => (
-            <div key={index}>
+            <div key={index} className="">
               <div className="flex flex-col space-y-3 items-center border rounded-md p-3">
                 <img src={student.image} alt="alt" />
                 <div className="border w-full"></div>
