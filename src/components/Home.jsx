@@ -4,7 +4,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="p-20 space-y-5">
           <h1 className="text-3xl font-bold">
             Explore the Wonders of Life: Where Biology Meets Brilliance!
@@ -25,13 +25,7 @@ const Home = () => {
           </button>
         </div>
         <div className="w-full p-2">
-          <img
-            src="/bsc-header-image.png"
-            alt="Header Image"
-            height={1080}
-            width={1080}
-            className="h-full w-full"
-          />
+          <img src="/bsc-header-image.png" alt="Header Image" className="" />
         </div>
       </div>
       <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-800">
@@ -46,19 +40,6 @@ const Home = () => {
       <div className="flex flex-col items-center justify-center p-10 space-y-5">
         <h1 className="text-3xl font-bold ">Search Online Courses</h1>
         <div className="flex space-x-5">
-          <svg
-            width="20"
-            height="20"
-            fill="currentColor"
-            class="absolute left-3 top-1/2 -mt-2.5 text-slate-400 pointer-events-none group-focus-within:text-blue-500"
-            aria-hidden="true"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-            />
-          </svg>
           <input
             placeholder="Search Your Course "
             type="text"
