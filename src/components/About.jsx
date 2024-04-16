@@ -38,6 +38,7 @@ const About = () => {
             />
           </div>
           <div className="flex flex-col items-center justify-center">
+            <h1 className="text-xl font-bold">Md Raju </h1>
             <h1 className="text-xl font-bold">M.Sc, B.Ed, M.Ed </h1>
             <h1 className="text-xl font-bold text-center">
               8 years of Teaching Experience
