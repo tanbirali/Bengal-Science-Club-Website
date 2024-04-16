@@ -1,3 +1,4 @@
+import { Mail, Phone } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -50,6 +51,23 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="text-white p-2 font-bold">Contact Us</h1>
+          <div className="p-2">
+            <div className="flex items-center">
+              <Mail className="text-white" />
+              <Link
+                to={"mailto:mdraju19933@gmail.com"}
+                className="text-white p-2"
+              >
+                mdraju19933@gmail.com
+              </Link>
+            </div>
+            <div className="flex items-center">
+              <Phone className="text-white" />
+              <Link to={"tel:+91 97338 07337"} className="text-white p-2">
+                +91 97338 07337
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
       <div className="border text-white mx-5 shadow-lg"></div>
